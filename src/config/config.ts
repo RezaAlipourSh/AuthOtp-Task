@@ -1,4 +1,4 @@
-import { registerAs } from "@nestjs/config";
+oimport { registerAs } from "@nestjs/config";
 
 export enum ConfigKeys {
   App = "App",
@@ -21,7 +21,7 @@ const DbConfig = registerAs(ConfigKeys.Db, () => ({
   port: 5432,
   host: "localhost",
   username: "postgres",
-  password: "a1870502930@",
+  password: "root",
   database: "auth-otp",
 }));
 
